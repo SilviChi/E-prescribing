@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/SilviChi/E-prescribing/issues"
   },
-  "homepage": "https://github.com/SilviChi/E-prescribing#readme"
+  "homepage": "https://github.com/SilviChi/E-prescribing#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "systemjs-plugin-babel" : "^0.0.23",
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "sammy": "^0.7.6",
+    "systemjs": "^0.20.12",
+    "toastr": "^2.1.2"
+  }
 }

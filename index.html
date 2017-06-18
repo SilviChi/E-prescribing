@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>E-Prescribing</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Toastr CSS -->
+    <link href="./node_modules/toastr/build/toastr.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div id="main">
+    </div>
+    <div class="site-wrapper">
+    </div>
+    <div class="container-regbar">
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+
+    <!-- jQuery -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Toastr.js -->
+    <script src="./node_modules/toastr/toastr.js"></script>
+    <!-- System.js -->
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+    <!-- Main.js -->
+    <script src="./config/systemjs-config.js"></script>
+    <script>
+        System.import("main"); //за да може с бабел-а после да минава
+    </script>
+</body>
+
+</html>
